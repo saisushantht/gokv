@@ -1,0 +1,12 @@
+# Binaries
+*.exe
+*.out
+/bin/
+
+# Test cache
+/tmp/
+
+# Data files GoKV will create during testing
+*.wal
+*.sst
+/testdata/

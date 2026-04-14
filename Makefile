@@ -1,0 +1,13 @@
+.PHONY: test bench lint build
+
+test:
+	go test -race ./...
+
+bench:
+	go test -bench=. -benchmem ./...
+
+lint:
+	go vet ./...
+
+build:
+	go build ./...
